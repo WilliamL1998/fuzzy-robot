@@ -63,9 +63,14 @@ textarea{
   border-bottom-right-radius: 15px;
   background-color: #06AED5;
   color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+/* i:hover is targeting the FontAwesome5 icons */
 .saveBtn i:hover {
-  font-size: 20px;
+  font-size: 1.5em;
   transition: all .3s ease-in-out;
 }
