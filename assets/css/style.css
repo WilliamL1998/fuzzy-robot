@@ -74,3 +74,7 @@ textarea{
   font-size: 1.5em;
   transition: all .3s ease-in-out;
 }
+
+.alert {
+  text-align: center;
+}

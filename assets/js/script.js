@@ -43,6 +43,14 @@ $(document).ready(function(){
 
         // Store hour and task in local storage to be retrieved later
         localStorage.setItem(hour, task)
+
+        // Adds a dismissable alert at the bottom of the scheduler to let the user know that their task is saved
+        $("body").append("<div class=\"alert alert-warning alert-dismissible fade show\" role=\"alert\">\n<strong>Saved!</strong> Task at " + hour + ":00 is saved to localStorage.\n<button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-label=\"Close\">\n<span aria-hidden=\"true\">&times;</span>\n</button>\n</div>")
+
+        // Adds a timeout to automatically dismiss the alert after 5 seconds
+        setTimeout(function() {
+            $('.alert').alert('close')
+        }, 5000)
     })
 
     // Retrieve preexisting task information from local storage if it exists
