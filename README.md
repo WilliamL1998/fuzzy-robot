@@ -13,3 +13,10 @@ On load, the scheduler tells you today's day of the week and the date. The sched
 
 ![Screenshot 1](./assets/images/Screenshot%201.png)
 ![Screenshot 1](./assets/images/Screenshot%202.png)
+
+## Credits
+Moment.JS and documentation: https://momentjs.com/docs/#/displaying/
+w3schools jQuery Tutorial: https://www.w3schools.com/jquery/default.asp
+jQuery API and documentation: https://api.jquery.com/
+FontAwesome for their icons: https://fontawesome.com/
+Bootstrap Alert Component: https://getbootstrap.com/docs/4.6/components/alerts/#dismissing
