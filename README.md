@@ -1,4 +1,4 @@
-# Module 5 fuzzy-robot
+# Scheduler
 
 ## Description
 This site is a work day scheduler. The user can add tasks by the hour to the scheduler and save it into local storage. The scheduler also retrieves the local storage data on first load so all the previously saved tasks remain on the screen.
